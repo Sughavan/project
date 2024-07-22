@@ -1,0 +1,81 @@
+/* column2 */
+.shop
+{
+   color:navy;
+   
+   text-align: justify;
+   justify-content:flex;
+
+}
+.headhome
+{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px ;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-variant:small-caps;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.82);
+    letter-spacing: 1.5px;
+    
+}
+.slidebrand
+{
+    width: auto;
+    height: auto;
+    
+    align-items: center;
+}
+.bran
+{
+    width: 4cm;
+    height: 3cm;
+
+    padding: 2%;
+  
+    justify-content:space-evenly;
+  
+}
+/* column1 */
+
+.sliding
+{
+    display:block;
+    justify-content: flex-end;
+    
+}
+
+ .slide{
+    height: auto;
+    width:auto;
+    background-color: black;
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+.sli
+{
+    display: flex;
+    justify-content: space-evenly;
+    scrollbar-width: none;
+    align-items: center;
+    
+
+}
+
+/* column3 */
+.fie{
+
+    display: flex;
+    justify-content: center;
+}
+.field
+{
+    height:5cm;
+    width:5cm;
+    border-width: 1px;
+    border-radius: 2px;
+   border-color:black;
+}

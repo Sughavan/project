@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_bar
+{ 
+    background-color:rgb(5, 5, 47);
+    height:80px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.navlogo
+{
+    color: white;
+   display: contents;
+    font-size: 30px;
+    scrollbar-width: none;
+}
+.navlogo span
+{
+    display: contents;
+    color: rgb(43, 113, 244);
+}
+
+.nav_bar ul
+{
+    list-style: none;
+    display: flex;
+   
+}
+.nav_bar ul li{
+    padding:10px 30px;
+    scrollbar-width: none;
+    position: relative;
+}
+.nav_bar ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    transition:all 0.1s;
+    
+}
+.nav_bar ul li a:hover
+{
+    color:rgb(43, 113, 244);
+}
+.nav_bar ul li:hover .cat_drop
+{
+    display :block;
+    position:fixed;
+   left:0;
+    background-color: rgb(5, 5, 47);
+    
+    box-shadow: 3px 5px 5px 3px  rgb(46, 39, 39);
+}
+.cat_drop
+{
+    display: none;
+}
+.nav_bar ul li:hover .cat_drop .drop
+{
+    display: block;
+    margin: 50px;
+    max-height: 10cm;
+    width: 1440px;
+    padding-top: 20px;
+    
+
+}
+.nav_bar ul li:hover  .cat_drop .drop li{
+
+    width: 150px;
+    padding :20px;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.fas
+{
+    float:right;
+    margin-left:10px;
+    padding-top:0px;
+}
+.nav_bar ul li:hover .prof_drop
+{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: -12px;
+    box-shadow: 3px 3px 3px   rgb(46, 39, 39);
+
+    
+    background-color: rgb(5, 5, 47);
+}
+.prof_drop
+{
+    display: none;
+}
+
+.nav_bar ul li:hover .prof_drop .drop
+{
+    display: block;
+    position: relative;
+    margin: 5px;
+    max-height:10cm;
+    align-items: start;
+}
+.nav_bar ul li:hover .prof_drop .drop li
+{
+    width: 125px;
+  
+
+}
+
