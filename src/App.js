@@ -11,9 +11,9 @@ function App() {
       <BrowserRouter>
      
       <Routes>
+        <Route path='/' element={<Head1/>}></Route>
        {/* <Route path='/' element={<Head/>}></Route> */}
-        <Route path='/' element={<Hero/>}></Route>
-        {/* <Route path='/' element={<Head1/>}></Route> */}
+        {/* <Route path='/3' element={<Hero/>}></Route> */}
       </Routes>
       </BrowserRouter>
     </div>

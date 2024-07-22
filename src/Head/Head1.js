@@ -1,6 +1,7 @@
 import React from 'react'
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import './Head1.css';
+import Hero from '../Landing/Hero';
 const Head1 = () => {
   return (
     <div>
@@ -48,6 +49,7 @@ const Head1 = () => {
 
 
 
+        <Hero/>
     </div>
   )
 }
